@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  /* overflow-x: hidden; */
+}
+
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.balance-point , .draw-time{
+  margin: 0px 20px;
+}
+
+.draw-time-name , .date-time{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.geust {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.mrp-font{
+  font-size: 25px !important;
+}
+
+.draw-time-head{
+  color: #fff;
+  padding: 10px 0px 0px 20px;
+  font-size: 21px;
+  line-height: 51px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.draw-time-box {
+  background: #fff;
+  padding: 4px 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 20px;
+}
+
+.lottery-name{
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 6px 15px;
+  font-size: 20px;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.date-time-span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  color: #fff;
+}
+
+.header {
+  background-color: #1515ff;
+  padding-bottom: 12px;
+}
+
+.welcome-btn{
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 20px;
+   padding: 13px 0px 0px 0px;
+}
+
+
+.table-inp {
+  width: 50px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login {
+  background-color: #f550fc;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px 10px;
+}
+
+.bottom-btn {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1515ff;
+  padding: 3px 14px;
+}
+
+.ticket-btn {
+  padding: 4px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    background: yellow;
+    border: none;
+    color: blue;
+    margin: 5px 2px;
+}
+
+.middle-box {
+  background: #3523a5;
+}
+
+.lottery-detail {
+  padding: 4px 0px 0px 20px;
+  /* text-align: center; */
+  display: inline-block;
+}
+
+/* .dear-lottery {
+  font-size: 110px;
+  text-shadow: -6px 6px 7px rgb(255 255 255);
+  margin: 0;
+  line-height: 81px;
+  font-family: 'Roboto', sans-serif;
+  color: #5454C5;
+} */
+
+
+
+
+
+.ticket-numbers {
+  /* padding: 10px 0px 0px 0px; */
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-inp-2 {
+  font-size: 34px;
+  background: transparent;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+.tickets-div {
+  background: red;
+  border: 3px solid rgb(255, 255, 255);
+  width: 285px;
+  /* margin-left: 25px; */
+}
+
+.middle-logo {
+  width: 107px;
+  margin-left: 31px;
+}
+
+.qr-logo {
+  width: 94px !important;
+  margin-left: -10px;
+}
+
+.qr-div {
+  display: inline-block;
+  vertical-align: top;
+  /* margin-left: 27px; */
+  margin-top: 6px;
+}
+
+.middle-side {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-heading h4 {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 11px 0px 0px 0px;
+  color: #002bff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.winner-img{
+  width: 192px;
+}
+
+.mrp-inp {
+  width: 62px;
+  font-size: 33px;
+  font-weight: 700;
+  text-align: center;
+  color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mrp {
+  display: flex;
+  margin-top: -37px;
+}
+
+.mrp-box,
+.total-box {
+  margin: 0px 10px;
+}
+
+.middle-head h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+  transform: scaleX(1.30);
+}
+
+.middle-first {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.middle-second {
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 8px;
+}
+
+.middle-third {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.middle-logo {
+  width: 100px;
+}
+
+.ticket-3-logo {
+  width: 78px;
+  margin-left: 30px;
+}
+
+.ticket-3-qr {
+  width: 62px;
+  margin-left: 10px;
+}
+
+.ticket-3-lottery-winners {
+  width: 152px;
+  margin-left: 20px;
+}
+
+.lottery-name-td {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  /* padding: 0px 20px !important; */
+  text-shadow: 1.41px 1.41px rgba(255, 255, 255, 1),2px 0 rgba(255, 255, 255, 1),1.41px -1.41px rgba(255, 255, 255, 1),0 -2px rgba(255, 255, 255, 1),-1.41px -1.41px rgba(255, 255, 255, 1),-2px 0 rgba(255, 255, 255, 1),-1.41px 1.41px rgba(255, 255, 255, 1),0 2px rgba(255, 255, 255, 1);
+}
+
+.guest{
+  font-size: 20px;
+    color: #fff;
+    margin-top: 17px;
+}
+
+.logout-btn{
+  padding: 1px 18px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.middle-full{
+  background-color: #CB1C8D;
+}
+.color-1{
+  color: #001fff;
+}
+
+.color-2{
+    color: #00b300;
+}
+
+.color-3{
+  color: red;
+}
+
+.color-4{
+  color: #f500ff;
+}
+
+.color-5{
+  color: chocolate;
+}
+
+
+.another-winner{
+  width: 206px;
+  margin-left: 52px;
+}
+
+.mrp-total{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-3-mrp{
+  font-size: 37px;
+  font-weight: 700;
+  color: yellow;
+}
+
+
+.ticket-3-total-inp{
+    height: 40px;
+    width: 137px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .lottery-h4{
+    font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0px 0px rgb(255 255 255), 0px 0 rgb(255 255 255), 0px 0px rgb(255 255 255), 0 0px rgb(255 255 255), 0px 0px rgb(255 255 255), 0px 0 rgb(255 255 255), 0px 4.41px rgb(255 255 255), 0 0px rgb(255 255 255);
+    color: blue;
+    font-weight: bold;
+}
+
+.weekly{
+  font-size: 42px;
+  font-weight: bolder;
+  color: #001fff;
+}
+
+.lottery-amount {
+  font-size: 53px;
+  text-shadow: 5.41px 1.41px rgb(0 0 0), 4px 0 rgb(0 0 0), -0.59px -1.41px rgb(255 255 255), 0 3px rgb(0 0 0), -1.41px -1.41px rgb(0 0 0), -2px 0 rgb(0 0 0), 2.59px 1.41px rgb(0 0 0), 0 2px rgb(0 0 0);
+  line-height: 38px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 36px;
+}
+
+.mrp-another{
+  display: flex;
+  justify-content: center;
+}
+
+
+.lottery-head{
+  font-size: 44px;
+    font-weight: 900;
+    color: #227C70;
+    margin-top: 29px;
+    padding-left: 6px;
+    transform: scaleY(1.5);
+    line-height: 61px;
+    text-shadow: 0.41px 1.41px rgb(255 255 255), 2px 0 rgb(255 255 255), -0.59px -1.41px rgb(255 255 255), 0 2px rgb(0 0 0), -1.41px -1.41px rgb(255 255 255), -2px 0 rgb(255 255 255), 2.59px 1.41px rgb(253 253 253), 0 2px rgb(255 255 255);
+}
+
+.lottery-dear{
+  font-size: 102px;
+  font-weight: 700;
+  color: #083AA9;
+  text-shadow: 0.41px 1.41px rgb(255 255 255), 2px 0 rgb(255 255 255), -0.59px -1.41px rgb(255 255 255), 0 2px rgb(0 0 0), -1.41px -1.41px rgb(255 255 255), 0px 0 rgb(255 255 255), 2.59px 6.41px rgb(0 0 0), 0 2px rgb(0 0 0);
+}
